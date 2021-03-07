@@ -1,0 +1,15 @@
+include: package:effective_dart/analysis_options.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    must_be_immutable: warning
+    prefer_const_constructors: warning
+    lines_longer_than_80_chars: ignore
+    public_member_api_docs: ignore
+    one_member_abstracts: ignore
+    todo: ignore
+    constant_identifier_names: ignore
+    omit_local_variable_types: ignore
+    prefer_relative_imports: ignore
